@@ -329,14 +329,6 @@ img {
   margin-right: 8px;
 }
 
-.portfolio-examples-content {
-  padding: 20px 24px;
-}
-
-.portfolio-examples-name {
-  margin-bottom: 4px;
-}
-
 .portfolio-btn {
   background: #f5f4fa;
   border-radius: 4px;
@@ -362,6 +354,18 @@ img {
 .portfolio-examples {
   display: flex;
   flex-wrap: wrap;
+}
+
+.portfolio-examples-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
+.portfolio-examples-content {
+  padding: 20px 24px;
+}
+
+.portfolio-examples-name {
+  margin-bottom: 4px;
 }
 
 .portfolio-examples-item:not(:nth-child(3n)) {
